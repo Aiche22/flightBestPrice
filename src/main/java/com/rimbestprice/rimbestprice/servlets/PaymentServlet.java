@@ -49,7 +49,7 @@ public class PaymentServlet extends HttpServlet {
         String accountNumber = request.getParameter("accountNumber");
         String amount = request.getParameter("amount");
 
-        String apiEndpoint = "https://d40c-41-188-106-98.ngrok-free.app/make_payment"; // Replace with your FastAPI endpoint
+        String apiEndpoint = "https://258f-41-188-67-13.ngrok-free.app/make_payment"; // Replace with your FastAPI endpoint
 
         HttpClient httpclient = HttpClients.createDefault();
         HttpPost httppost = new HttpPost(apiEndpoint);

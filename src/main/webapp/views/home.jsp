@@ -1,4 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +13,7 @@
         }
 
         .bg-image {
-            background-image: url('static/background.jpg');
+            background-image: url('static/images/Avion.jpg');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -103,7 +102,7 @@
                 <div class="col-md-6 offset-md-3">
                     <h1 class="text-white text-center">Welcome to the Home Page!</h1>
 
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center flex-row"> <!-- Ajout de flex-row -->
                         <div class="card">
                             <div class="card-body">
                                 <h2 class="card-title">Company</h2>
@@ -137,3 +136,5 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBudMz5l/6en8XCp+HHAAK5GSLf2xlYtvJ8U2Q4U+9cuEnJoa3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
